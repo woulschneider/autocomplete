@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>supernova26</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Selecione a medicação:</h2>
+        <div class="input-group mb-3">
+            <input type="text" id="produto" autocomplete list="produto-datalist" class="form-control" placeholder="Digite algo...">
+            <datalist id="produto-datalist"></datalist>
+            <button class="btn btn-outline-secondary" type="button" id="addButton">+</button>
+        </div>
+        <ul id="selectedItems" class="list-group">
+            <!-- Itens selecionados serão adicionados aqui -->
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="static/autocomplete.js"></script>
+    <script src="static/addToList.js"></script>
+</body>
+</html>
